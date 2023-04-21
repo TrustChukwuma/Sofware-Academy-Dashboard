@@ -1,0 +1,258 @@
+
+@font-face {
+    font-family: 'russo_oneregular';
+    src: url('../fonts/russoone-regular-webfont.woff2') format('woff2'),
+         url('../fonts/russoone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'graphikbold';
+    src: url('../fonts/GraphikBold.woff2') format('woff2'),
+         url('../fonts/GraphikBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'graphikbolditalic';
+    src: url('../fonts/GraphikBoldItalic.woff2') format('woff2'),
+         url('../fonts/GraphikBoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'graphikregular';
+    src: url('../fonts/GraphikRegular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'graphikregularitalic';
+    src: url('../fonts/GraphikRegularItalic.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'graphiksemibold';
+    src: url('../fonts/GraphikSemibold.woff2') format('woff2'),
+         url('../fonts/GraphikSemibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-size: 17px;
+    line-height: 1.75;
+    font-weight: 400;
+    font-family: 'graphikregular', sans-serif;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 45px;
+    height: initial;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.contact-container {
+    background-color: #EDEFF0 !important;
+}
+.footer-logo {
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+#header{
+    height: 80px;
+}
+
+.header-meta div.active-menu {
+    color: #1d571de6;
+}
+
+.container-fluid.learning{
+  background-color: #101C32;
+  color: white;
+  height: 170px;
+}
+div.active-link ul.main-menu{
+display: flex;
+word-spacing: normal;
+padding-left: 20px;
+}
+div.active-link{
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+div.active-link ul.main-menu li{
+padding: 20px;
+}
+
+#mylearning{
+  padding-left: 40px;
+  padding-top: 25px;
+
+}
+
+div.learning-image{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+
+}
+div.course-content{
+  margin-top: 40px;
+}
+
+div#mylearning p{
+/* padding: 30px; */
+font-size: x-large;
+font-weight: bolder;
+margin-top: 50px;
+}
+
+
+div.offcanvas-menu ul.main-menu li.active-menu a{
+    color: #1d571de6;
+  }
+.header-login-join .join-btn{
+    font-size:initial;
+    
+}
+div.header-login-join li {
+  list-style:none
+
+}
+ul.main-menu{
+  white-space: nowrap;
+}
+.btn,.circle{
+  background-color:#1d571de6 ;
+}
+
+.circle.rounded-circle{
+  color: white;
+  font-weight: bolder;
+  padding: 8px 10px;
+}
+
+
+div.header-login-join  a.login.active-menu {
+  color: #1d571de6 !important;
+
+}
+
+div.hero-content-3{
+  margin-top: 50px !important;
+}
+
+.header-logo a img {
+    width: 20%;
+    margin-top: -15px;
+    /* padding-bottom: 8px; */
+  }
+
+div.header-right{
+  margin-right: 50px !important;
+}
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+    .header-logo a img {
+      width: 130px;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+    #header{
+      height: 120px;
+    }
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+    .header-meta{
+      padding:  15px;
+    }
+  }
+
+  .hero-section-3::before{
+    background:#1d571de6;
+
+  }
+
+
+.nav-pills .nav-link.active{
+  background-color: #0dfd73;
+}
+
+.text-greeen{
+  color: #000;
+}
+
+*{
+  /* font-family: 'Nova Oval', cursive!important; */
+}
+.footer-section {
+  background-color: #12141D;
+}
+
+.footer-widget-wrapper{
+  padding-bottom: 0px;
+}
+
+.nav-link:focus, .nav-link:hover{
+  color: #0dfd73;
+}
+
+
+.container2{
+  /* box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px; */
+  border-radius: 5px;
+}
+
+.sidebar0{
+  /* box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px; */
+  height: 714.16px;
+  margin-bottom: 20px;
+}
+
+.col-md-4>img{
+  height: 130px;
+}
+
+.box-shadow{
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.leader-board{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+span{
+  color: #0dfd73;
+}
+
+.shadow-2{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  width: 188.22px;
+}
+
+*{
+  font-family: 'russo_oneregular'!important;
+}
+
+.accordion-button:focus {
+  border-color: #0dfd73;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #0dfd73;
+  background-color: #12141D;
+}
