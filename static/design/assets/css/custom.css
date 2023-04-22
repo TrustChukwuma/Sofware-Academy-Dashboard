@@ -256,3 +256,8 @@ span{
   color: #0dfd73;
   background-color: #12141D;
 }
+
+.accordion-body>p{
+  font-size: 12px;
+  font-weight: 200;
+}
