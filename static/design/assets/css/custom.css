@@ -136,7 +136,7 @@ ul.main-menu{
   white-space: nowrap;
 }
 .btn,.circle{
-  background-color:#1d571de6 ;
+  /* background-color:#1d571de6; */
 }
 
 .circle.rounded-circle{
@@ -245,7 +245,7 @@ span{
 }
 
 *{
-  font-family: 'russo_oneregular'!important;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .accordion-button:focus {
@@ -260,4 +260,116 @@ span{
 .accordion-body>p{
   font-size: 12px;
   font-weight: 200;
+}
+
+#learning{
+  padding: 100px;
+  /* padding-top: 150px; */
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn-black{
+  color: #fff;
+  background-color: black;
+  border-radius: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* 
+.btn :hover{
+  color: black!important;
+  background-color: white!important;
+  border: 1px black solid!important;
+  border-radius: 0px!important;
+} */
+
+.margin{
+  margin-top: -60px;
+}
+
+.sha{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  border: 1px grey solid;
+}
+
+.sha2{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.text1{
+  font-size: 10px;
+}
+
+h2{
+  color: white!important;
+}
+.height{
+  height: 50px;
+}
+
+input{
+  border: 1px black solid;
+  border-radius: 0px!important;
+}
+
+.option{
+  /* height: 70px; */
+  color: black!important;
+}
+
+.option :hover{
+  color: black!important;
+  background-color: #0dfd73!important;
+}
+
+
+.btn-outline-black:hover{
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+
+@media only screen and (max-width: 449px){
+  .margin {
+    margin: -50px;
+    margin-bottom: 30px;
+    padding-left: 40px;
+}
+}
+
+.under{
+  text-decoration: underline;
+}
+
+.heading1{
+  /* border: 2px solid black; */
+  border-radius: 0px;
+  padding: 4px;
+}
+
+.heading1>p, .heading1>h6{
+  line-height: 20px;
+}
+
+.heading1:hover{
+  background-color: rgb(241, 238, 238);
+}
+
+.heading{
+  padding: 15px;
+  text-align: center;
+  border: 2px solid black;
+  border-left: none;
+  border-right: none;
+}
+
+.pako{
+  display: fixed;
+}
+
+.activ{
+  background-color: rgb(241, 238, 238);
 }
