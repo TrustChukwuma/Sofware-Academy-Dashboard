@@ -135,9 +135,7 @@ div.header-login-join li {
 ul.main-menu{
   white-space: nowrap;
 }
-.btn,.circle{
-  /* background-color:#1d571de6; */
-}
+
 
 .circle.rounded-circle{
   color: white;
@@ -196,9 +194,6 @@ div.header-right{
   color: #000;
 }
 
-*{
-  /* font-family: 'Nova Oval', cursive!important; */
-}
 .footer-section {
   background-color: #12141D;
 }
@@ -263,7 +258,7 @@ span{
 }
 
 #learning{
-  padding: 100px;
+  padding: 50px;
   /* padding-top: 150px; */
 }
 
@@ -372,4 +367,32 @@ input{
 
 .activ{
   background-color: rgb(241, 238, 238);
+}
+
+.nav{
+  margin-top: -59px;
+}
+
+@media only screen and (max-width: 449px){
+  .nav {
+    margin-top: 5px;
+    border: 2px solid black;
+  }
+  .nav-item>button{
+    color: #000;
+  }
+  #o-tab{
+    color: #000;
+  }
+  .nav-link.active{
+    color: #000 !important;
+  }
+
+  #learning{
+    padding: 10px;
+  }
+}
+
+.nav2{
+  margin-top: -89px !important;
 }

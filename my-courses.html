@@ -191,45 +191,105 @@
 <div class="container-fluid bg-black" id="learning">
     <h2 class="text-white">My Learning</h2>
 </div>
+
 <div class="container">
-    <ul class="nav nav-tabs margin  col-12">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="my-courses.html">All courses</a>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="all-courses-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab" aria-controls="all-courses" aria-selected="true">All Courses</button>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="my-list.html">My List</a>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="my-list-tab" data-bs-toggle="tab" data-bs-target="#my" type="button" role="tab" aria-controls="my-lists" aria-selected="false">My Lists</button>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="wishlist.html">Wishlist</a>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="wishlist-tab" data-bs-toggle="tab" data-bs-target="#wish" type="button" role="tab" aria-controls="wishlist" aria-selected="false">Wishlist</button>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="tool.html">Learning Tools</a>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="tools-tab" data-bs-toggle="tab" data-bs-target="#tools" type="button" role="tab" aria-controls="learning-tools" aria-selected="false">Learning Tools</button>
         </li>
     </ul>
-    <div class="container py-2 my-3 sha">
-        <h5>Schedule learning time</h5>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure tenetur numquam, porro repudiandae maiores aperiam hic! Quisquam ad officia numquam beatae, aspernatur ut, ullam sunt totam culpa nisi est laboriosam.</p>
-        <button class="btn btn-black">Get Started</button><button class="btn btn-outline-black">Dismiss</button>
-    </div>
-    <div class="container">
-        <div class="row mb-3">
-            <div class="col-md-3 px-0 pb-2 shadow-2 me-5 mt-4">
-                <img src="static/design/assets/images/b1.png" style="border-radius: 5px;" alt="">
-                <p class="text-success ps-2 pt-4" style="font-size: 10px;">Projector | 7 mins read</p>
-                <h5 class="ps-2" style="font-size: 12px;"><a href="courses.html">Dont ever do this in CSS!</a></h5>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-courses-tab">
+                <div class="container py-2 my-3 sha">
+                    <h5>Schedule learning time</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure tenetur numquam, porro repudiandae maiores aperiam hic! Quisquam ad officia numquam beatae, aspernatur ut, ullam sunt totam culpa nisi est laboriosam.</p>
+                    <button class="btn btn-black">Get Started</button><button class="btn btn-outline-black">Dismiss</button>
+                </div>
+
+                <div class="container sha2 my-3">
+                    <h4 class="text-black">About this course</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, molestiae. Nam consequuntur voluptates dolor, reprehenderit saepe, deserunt possimus blanditiis quibusdam earum eum excepturi sed. Aliquam beatae tempora ea tenetur nobis.</p>
+                </div>
+
+                <div class="container">
+                    <div class="row mb-3">
+                        <div class="col-md-3 px-0 pb-2 shadow-2 me-5 mt-4">
+                            <img src="static/design/assets/images/b1.png" style="border-radius: 5px;" alt="">
+                            <p class="text-success ps-2 pt-4" style="font-size: 10px;">Projector | 7 mins read</p>
+                            <h5 class="ps-2" style="font-size: 12px;"><a href="courses.html">Dont ever do this in CSS!</a></h5>
+                        </div>
+                        <div class="col-md-3 px-0 pb-2 shadow-2 me-5 mt-4">
+                            <img src="static/design/assets/images/b2.jpg" style="border-radius: 5px;" alt="">
+                            <p class="text-success ps-2 pt-4" style="font-size: 10px;">Projector | 7 mins read</p>
+                            <h5 class="ps-2" style="font-size: 12px;"><a href="courses.html">Dont ever do this in CSS!</a></h5>
+                        </div>
+                        <div class="col-md-3 px-0 pb-2 shadow-2 me-5 mt-4">
+                            <img src="static/design/assets/images/b3.jpg" style="border-radius: 5px;" alt="">
+                            <p class="text-success ps-2 pt-4" style="font-size: 10px;">Projector | 7 mins read</p>
+                            <h5 class="ps-2" style="font-size: 12px;"><a href="courses.html">Dont ever do this in CSS!</a></h5>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3 px-0 pb-2 shadow-2 me-5 mt-4">
-                <img src="static/design/assets/images/b2.jpg" style="border-radius: 5px;" alt="">
-                <p class="text-success ps-2 pt-4" style="font-size: 10px;">Projector | 7 mins read</p>
-                <h5 class="ps-2" style="font-size: 12px;"><a href="courses.html">Dont ever do this in CSS!</a></h5>
+            <div class="tab-pane fade" id="my" role="tabpanel" aria-labelledby="my-list-tab">
+                <div class="container py-2 my-3 text-center my-5">
+                    <h5>Organize an access your course faster!</h5>
+                    <p><a class="under" href="#">see the all course tab</a> to create a list.</p>
+                </div>
             </div>
-            <div class="col-md-3 px-0 pb-2 shadow-2 me-5 mt-4">
-                <img src="static/design/assets/images/b3.jpg" style="border-radius: 5px;" alt="">
-                <p class="text-success ps-2 pt-4" style="font-size: 10px;">Projector | 7 mins read</p>
-                <h5 class="ps-2" style="font-size: 12px;"><a href="courses.html">Dont ever do this in CSS!</a></h5>
+            <div class="tab-pane fade" id="wish" role="tabpanel" aria-labelledby="wishlist-tab">
+                <div class="container py-2 my-3 text-center my-5">
+                    <button class="btn btn-outline-black">Browse courses now</button>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="tools" role="tabpanel" aria-labelledby="tools-tab">
+                <div class="container py-2 my-3">
+                    <h4>Reminders</h4>
+                    <h5 class="mt-3">Calendar Events</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure tenetur numquam, porro repudiandae maiores aperiam hic! Quisquam ad officia numquam beatae, aspernatur ut, ullam sunt totam culpa nisi est laboriosam.</p>
+                    <p class="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dicta, odio.</p>
+                    <button class="btn btn-outline-black mt-3">Schedule Learning Time</button>
+                </div>
+                <div class="container py-2 my-3">
+                    <h4>Push Notification</h4>
+                    <h5 class="mt-3">Calendar Events</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure ten.</p>
+                    <p class="text1">Send me a link</p>
+            
+                    <div class="container">
+                        <div class="col-md-6">
+                            <select class="form-select bg-transparent " aria-label="Default select example">
+                                <option selected class="text-white option">+234 (Nigeria)</option>
+                                <option class="text-white option" value="1">_1 (United States)</option>
+                                <option class="text-white option" value="2">+01 (United Kingdom)</option>
+                                <option class="text-white option" value="3">+233 (GHana)</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 ped-4 mt-2">
+                            <div class="row">
+                                <div class="col-md-8 pe-0">
+                                    <form action="">
+                                        <input type="text" class="height" placeholder="Enter Phone Number">
+                                    </form>
+                                </div>
+                                <div class="col-md-4 ps-0">
+                                    <button class="btn btn-black ms-0 height" role="submit" >Send</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 </div>
 
 
