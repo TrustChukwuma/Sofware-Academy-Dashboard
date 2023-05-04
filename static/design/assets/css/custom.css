@@ -51,8 +51,8 @@
 body{
     font-size: 17px;
     line-height: 1.75;
+    background-color: var(--light);
     font-weight: 400;
-    font-family: 'graphikregular', sans-serif;
 }
 
 .contact-form {
@@ -140,7 +140,10 @@ ul.main-menu{
 .circle.rounded-circle{
   color: white;
   font-weight: bolder;
-  padding: 8px 10px;
+  padding: 12px 15px;
+  height: 50px !important;
+  width: 50px;
+  background-color: var(--bs-success);
 }
 
 
@@ -196,6 +199,7 @@ div.header-right{
 
 .footer-section {
   background-color: #12141D;
+  padding: 50px;
 }
 
 .footer-widget-wrapper{
@@ -240,7 +244,6 @@ span{
 }
 
 *{
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 .accordion-button:focus {
@@ -263,7 +266,6 @@ span{
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 .btn-black{
@@ -300,6 +302,8 @@ h1, h2, h3, h4, h5, h6{
 
 h2{
   color: white!important;
+  font-size: 25px;
+  line-height: 30px;
 }
 .height{
   height: 50px;
@@ -395,4 +399,51 @@ input{
 
 .nav2{
   margin-top: -89px !important;
+}
+
+.font-weight{
+  font-weight: 600;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.header{
+  /* box-shadow: 0px -1rem 3rem 9px rgba(0,0,0,0.15) !important; */
+  /* position: relative; */
+  margin-bottom: 4px;
+  /* border-bottom: #bdbcbc 2px solid; */
+}
+
+.header2{box-shadow: 0px -1rem 3rem 9px rgba(0,0,0,0.15) !important;}
+
+.content{
+  box-shadow: rgba(137, 134, 134, 0.483) 0px 3px 8px;
+  margin: auto;
+  width: 400px;
+  margin-top: 150px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.image-side>img{
+  height: 600px;
+}
+
+h2{
+  font-size: 50px;
+  line-height: 50px !important;
+
+}
+
+.border{
+  border: #000 3px solid;
+  margin: 10px;
+}
+
+.bg-dark > i{
+  height: 100px;
+}
+
+*{
+  font-family: 'Space Grotesk';
 }

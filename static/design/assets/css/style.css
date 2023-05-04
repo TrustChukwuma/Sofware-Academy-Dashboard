@@ -143,6 +143,8 @@ h6 {
 
 p {
   margin-bottom: 0;
+  /* margin-top: 10px; */
+  line-height: 30px;
 }
 
 a, button {
@@ -2621,11 +2623,11 @@ select {
 }
 
 .header-menu .main-menu li a {
-  font-size: 14px;
+  /* font-size: 14px; */
   /* font-family: "Khula", sans-serif; */
   font-weight: 700;
-  text-transform: uppercase;
-  color: #1b2336;
+  /* text-transform: uppercase; */
+  color: black;
 }
 
 .header-menu .main-menu li.active-menu > a {
@@ -2797,7 +2799,7 @@ select {
 
 .header-search .header-search-content input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]):not([type="file"]), .header-search .header-search-content textarea {
   border: 1px solid #000000;
-  border-radius: 5px;
+  border-radius: 5px !important;
   background-color: #ffffff;
   font-size: 13px;
   line-height: 30px;
@@ -2822,9 +2824,9 @@ select {
   font-weight: 700;
   transition: all 0.3s linear;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-  -webkit-border-radius: 5px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  /* -webkit-border-radius: 5px; */
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
@@ -2835,8 +2837,9 @@ select {
 }
 
 .header-search .header-search-content button.close-search:hover {
-  background: #DD0000;
+  background: var(--bs-success);
   color: #ffffff;
+  border-radius: 0px;
 }
 
 .header-cart {
@@ -2910,7 +2913,7 @@ select {
 }
 
 .shopping-cart .shopping-cart-inner .shopping-cart-content .empty-message {
-  color: #1b2336;
+  color: #000000;
 }
 
 .shopping-cart .body-overlay {
@@ -12433,4 +12436,9 @@ select {
 .copyright-wrapper .copyright-text p {
   font-size: 15px;
   color: #a3abb8;
+}
+
+
+*{
+  font-family: 'Space Grotesk', sans-serif !important;
 }
