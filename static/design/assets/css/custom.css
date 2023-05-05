@@ -212,7 +212,7 @@ div.header-right{
 
 
 .container2{
-  /* box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px; */
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
   border-radius: 5px;
 }
 
@@ -379,7 +379,7 @@ input{
 
 @media only screen and (max-width: 449px){
   .nav {
-    margin-top: 5px;
+    margin-top: 5px !important;
     border: 2px solid black;
   }
   .nav-item>button{
@@ -394,6 +394,11 @@ input{
 
   #learning{
     padding: 10px;
+  }
+
+  .nav3{
+    margin-top: 5px !important;
+    margin: 0px !important;
   }
 }
 
@@ -446,4 +451,86 @@ h2{
 
 *{
   font-family: 'Space Grotesk';
+}
+
+.w-19{
+  width: 300px;
+}
+
+.head1{
+  text-decoration: none;
+  font-size: 30px;
+  font-style: normal;
+}
+
+.nav3{
+  margin-top: -250px !important;
+}
+
+.container3{
+  box-shadow: rgba(0, 0, 0, 0.375) 0px 4px 12px;
+  padding: 25px;
+  border-radius: 6px;
+}
+
+.side1{
+  height: 180px !important;
+  border-radius: 5px;
+}
+
+.course-name{
+  font-size: 20px;
+  color: #000 !important;
+}
+
+.details{
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.name{
+  font-size: 12px;
+  font-style: italic;
+  color: orange;
+}
+
+.yellow{
+  color: orange;
+}
+
+.padded-text{
+  padding: 4px;
+  background-color: orange;
+  color: black;
+  border-radius: 4px;
+}
+
+.price{
+  font-size: 30px;
+  color: blue;
+}
+
+.col-md-2{
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.419) 0px 4px 12px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.r-ow{
+  display: flex;
+  justify-content: center;
+}
+
+.space{
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 50px;
+}
+
+.heading1{
+  text-align: center;
+  padding: auto !important;
 }

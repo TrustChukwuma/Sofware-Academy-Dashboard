@@ -886,7 +886,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .nav-tabs .nav-item .nav-link {
   margin: 0 0 -1px;
-  border: none;
+  color: #000;
+  border: blanchedalmond;
   padding: 15px 20px;
   position: relative;
   /* border-right: 1px solid #eeeeee; */
