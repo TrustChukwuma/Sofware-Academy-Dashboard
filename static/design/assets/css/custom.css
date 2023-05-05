@@ -521,6 +521,7 @@ h2{
 .r-ow{
   display: flex;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .space{
